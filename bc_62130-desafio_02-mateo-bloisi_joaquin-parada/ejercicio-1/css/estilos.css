@@ -1,0 +1,88 @@
+body {
+    background-color: #273238;
+}
+
+h1 {
+    background-color: white;
+    color: #688591;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+h2::first-letter{
+    font-size: 28px;
+}
+.aspiradoras {
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: italic;
+    color: #dfcfc2
+}
+
+.celulares {
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: italic;
+    color: #a0c1c9;
+
+}
+
+.consolas {
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: italic;
+    color: #bebdc8;
+
+}
+
+.hometheater {
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: italic;
+    color: #8d94a1;
+
+}
+
+.televisores {
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-style: italic;
+    color: #b5afa1;
+
+}
+img {
+    margin-left: 50px;
+    border: 6px  solid;
+}
+.aspiradoras-img {
+    padding: 1px 0px 0px 1px;
+    border-color: #dfcfc2;
+}
+.celulares-img {
+    padding: 0px 0px 1px 1px;
+    border-color: #a0c1c9;
+}
+.consolas-img {
+    padding: 1px 0px 1px 1px;
+    border-color:  #bebdc8;
+}
+.hometheater-img {
+    padding: 1px 0px 0px 1px;
+    border-color: #8d94a1;
+    width: 500px;
+
+}
+.televisores-img {
+    padding: 0px 0px 1px 1px;
+    border-color: #b5afa1;
+}

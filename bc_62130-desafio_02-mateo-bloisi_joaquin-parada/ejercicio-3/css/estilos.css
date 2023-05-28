@@ -1,0 +1,61 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(179, 81, 156);
+    letter-spacing: 0.5em;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: 120;
+    letter-spacing: 0.4em;
+    color: rgb(179, 81, 156)
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    font-size: 15px;
+    color: rgb(39, 104, 179);
+}
+
+.logo-img {
+    display: block;
+    margin: 0 auto;
+    width: 30vw;
+}
+
+.animal-img {
+    display: block;
+    max-width: 400px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.caribbean-img {
+    display: block;
+    max-width: 400px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+
+.lodge-img {
+    display:block;
+    max-width: 400px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 25px;
+
+}
+
+.mickey-minnie-img {
+    display: block;
+    width: 100vw;
+}

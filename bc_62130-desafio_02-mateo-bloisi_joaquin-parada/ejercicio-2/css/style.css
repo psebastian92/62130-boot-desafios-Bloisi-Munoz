@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(40, 150, 137);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+    text-align: center;
+    color: rgb(250, 237, 64);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+div img {
+    margin: 5px;
+    border: 7px white solid;
+    height: fit-content;
+    width: fit-content;
+}
