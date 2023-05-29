@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Smokum&display=swap');
+
+* {
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 117, 11) , rgb(255, 0, 179));
+    color: gold;
+    font-family: 'Exo 2', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(65, 52, 240), rgb(73, 20, 117));
+    margin: 40px 10%;
+    text-align: center;
+    border-radius: 150px 0px 150px 0px;
+    border: 10px ridge rgb(219, 218, 218);
+    box-shadow: 0px 0px 10px 10px purple;
+}
+
+h1 {
+    margin: 10px 10%;
+    font-family: 'Smokum', sans-serif;
+    font-size: 40px;
+    color: rgb(219, 218, 218);
+    letter-spacing: 10px;
+}
+
+form {
+    margin: 0px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+fieldset {
+    background-color: rgba(78, 15, 125, 0.5);
+    margin: 10px;
+    border: 10px solid gold;
+    border-radius: 40px 80px 40px 80px;
+    width: 100%;
+    position: relative;
+}
+
+.field-datos{
+    background-image: url(../img/deportista-futuro.png);
+    background-repeat: no-repeat ;
+    background-position: right bottom;
+    background-size: 15%;
+    margin: 10px;
+}
+
+.field-contacto {
+    background-image: url(../img/smartphone.png);
+    background-repeat: no-repeat ;
+    background-position: right bottom;
+    background-size: 12%;
+    margin: 10px;
+}
+
+.field-actividades {
+    background-image: url(../img/pelota.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 12%;
+    margin: 10px;
+}
+
+fieldset:focus-within {
+    box-shadow: 0px 0px 10px 10px yellow;
+    background-color: rgba(37, 37, 133, 0.7);
+    border: 10px solid transparent;
+}
+
+fieldset:focus-within legend {
+    box-shadow: 0px 0px 10px 10px violet inset;
+    background-color: rgba(37, 37, 133);
+    color: white;
+}
+
+
+legend {
+    box-shadow: 0px 0px 5px 0px violet;
+    margin-left: 10px;
+    color: blue;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #ff007f;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+span {
+    font-size: 25px;
+}
+
+div {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0px 10px 0px;
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3f3f3f;
+    border: 1px solid #3f3f3f;
+    color: rgb(255, 213, 0);
+    font-weight: bold;
+    letter-spacing: 3px;
+    box-shadow: 0px 0px 2px 2px purple inset;
+}
+
+input:focus, select:focus, textarea:focus {
+    background-color: #5f5f5f;
+    border-color: #5f5f5f;
+}
+
+
+.input-2 {
+    width: auto;
+    margin: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.sexo-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.actividades {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+}
+
+.tildado-opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.sexo-p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.alin-derecha {
+    direction: rtl;
+}
+
+.alin-derecha::placeholder {
+    text-align: right;
+}
+
+hr {
+    margin: 20px;
+    box-shadow: 0px 0px 10px 0px violet;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px dashed silver;
+    width: 70%;
+    height: 2px;
+}
+
+.ultimo-div {
+    display: block;
+    width: 70%;
+}
+
+.terminos-y-condiciones,
+.recibir-novedades {
+    margin: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.campo-oblig {
+    color: white;
+}
+
+.botones {
+    margin: 40px 300px 40px 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: nowrap;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 20px 0 2px;
+    background-color: #ff007f;
+    padding: 20px;
+    color: blue;
+    border: 1px solid rgb(166, 193, 186);
+    border-radius: 50% 50% 50% 50%; 
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px 0px rgb(15, 3, 255);
+    background-color: silver;
+    border: 0;
+    color: rgb(44, 61, 55);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+    #titulo {
+      font-size: 24px;
+    }
+    select {
+        font-size: 10px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    .botones {
+        width: 70%;
+    }
+
+    .field-actividades, .field-contacto, .field-datos {
+        margin: 0px;
+        background-size: 5%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    #titulo {
+      font-size: 18px;
+    }
+    legend {
+        font-size: 10px;
+    }
+
+    select {
+        font-size: 10px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+    ::placeholder{
+        font-size: 8px
+    }
+    button {
+        font-size: 10px;
+    }
+
+    .botones {
+        width: 70%;
+    }
+       
+}
