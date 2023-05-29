@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
+
+* {
+    margin: 1px;
+}
+
+body {
+    background-color: rgb(31, 32, 36);
+    font-family: 'Teko', sans-serif;
+    background-image: url("../img/retro-gym-naranja-2.png");
+}
+
+header {
+    margin: 40px 15%;
+    text-align: center;
+    background-color: #205592;
+    border-radius: 10px;
+    border-style: double;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+h1 {
+    font-family: 'Bungee Shade';
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: center;
+    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+legend {
+    color: rgb(235, 191, 47);
+    font-family: 'Zen Tokyo Zoo', cursive;
+    background-color: #205592;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border-style: double;
+}
+
+
+span {
+    font-size: 25px;
+}
+
+fieldset {
+    background-color: rgb(183, 206, 224);
+    margin: 10px 10px 10px 10px;
+    border-radius: 2px;
+    width: 70%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-style: double;
+}
+
+.field-datos{
+    background-image: url(../img/emoji-1-removebg-preview.png);
+    background-repeat: no-repeat ;
+    background-position: right bottom;
+}
+
+.field-contacto {
+    background-image: url(../img/telefono.png);
+    background-repeat: no-repeat ;
+    background-position: right bottom;
+    background-size: 100px;
+}
+
+.field-actividades {
+    background-image: url(../img/actividades.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+
+fieldset:focus-within {
+    background-color: rgb(88, 154, 240);
+}
+
+div {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+
+
+input {
+    margin-bottom: 10px;
+    width: 70%;
+    height: 25px;
+}
+
+input:focus-within {
+    background-color: rgb(39, 80, 192);
+    color: white;
+}
+
+.input-2 {
+    width: auto;
+}
+
+.nacionalidad-cont {
+    width: 70%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.coment-cont {
+    margin-bottom: 10px;
+}
+
+
+textarea {
+    resize: vertical;
+    width: 70%;
+}
+
+textarea:focus-within {
+    background-color: rgb(41, 61, 55);
+    color: white;
+}
+
+.sexo-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.actividades {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+}
+
+.tildado-opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.sexo-p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.alin-derecha {
+    direction: rtl;
+}
+
+.alin-derecha::placeholder {
+    text-align: right;
+}
+
+hr {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 10px #A6C1B9 dotted;
+    margin: 0 33%;
+}
+
+.ultimo-div {
+    display: block;
+    width: 73%;
+}
+
+.terminos-y-condiciones,
+.recibir-novedades {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.campo-oblig {
+    color: white;
+}
+
+.botones {
+    margin: 40px 300px 40px 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: nowrap;
+}
+
+button {
+    font-size: 20px;
+    margin: 0 20px 0 2px;
+    background-color: rgb(37, 98, 179);
+    padding: 20px;
+    color: rgb(166, 193, 186);
+    border: 1px solid rgb(166, 193, 186);
+    border-radius: 5px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: rgb(137, 185, 240);
+    
+    border-style: double;
+    color: rgb(44, 61, 55);
+
+}

@@ -1,0 +1,137 @@
+body {
+    background-image: url(../img/fondo-mario.jpg);
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 100px 0 100px;
+}
+
+.header-titulo {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 15%, rgba(91,166,254,1) 52%);
+    text-align: center;
+    margin: 15px;
+    border-radius: 25px;
+    
+}
+
+section {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    padding: 20px;
+    font-size: 60px;
+   
+}
+
+h2 {
+    background-color: rgb(38, 127, 228);
+    text-shadow: 2px 2px #00000028;
+    text-align: center;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.664);
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.h3-mario {
+    text-align: right ;
+    color: crimson;
+    margin-bottom: 0;
+    
+    width: 100%;
+
+}
+
+.h3-mk {
+    text-align: left ;
+    color: crimson;
+    margin-bottom: 0;
+    
+    width: 100%;
+
+}
+
+
+article {
+    background-color: white;
+    border-radius: 7px;
+    padding: 30px;
+    padding-bottom: 150px;
+    margin: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.664);
+}
+
+hr {
+    color: crimson;
+    border: 1px solid;
+}
+
+p {
+    text-shadow: 2px 2px #0000000c;
+    
+}
+    
+
+.img-1 {
+    float: right;
+    width: 40%;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 12px;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.664);
+}
+
+.img-2 {
+    float: left;
+    width: 40%;
+    height: 100%;
+    margin-right: 30px;
+    margin-top: 12px;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.664);
+}
+
+a {
+    display: inline-block;
+    background-color: rgb(38, 127, 228);
+    width: auto;
+    border: solid rgb(38, 127, 228);
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.664);
+}
+
+a:hover {
+    background-color: crimson;
+    border: solid crimson;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+div {
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(53, 137, 233, 0.781);
+    color: white;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
